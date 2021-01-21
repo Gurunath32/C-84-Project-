@@ -21,11 +21,11 @@ function add() {
     bg_image_tag.src=bg_image;
 
     car1_img_tag=new Image();
-    car1_img_tag.onload=uploadrover;
+    car1_img_tag.onload=uploadcar1;
     car1_img_tag.src=car1_img;
 
     car2_img_tag=new Image();
-    car2_img_tag.onload=uploadrover;
+    car2_img_tag.onload=uploadcar2;
     car2_img_tag.src=car2_img;
 }
 
